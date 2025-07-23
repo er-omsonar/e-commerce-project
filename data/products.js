@@ -656,5 +656,33 @@ const products = [
       "apparel",
       "mens"
     ]
+  } ,{
+    id: "id2",
+    image: "images/products/umbrella.jpg",
+    name: "Black Umbrella With High Quality Material",
+    rating: {
+      stars: 4.5,
+      count: 87
+    },
+    priceCents: 1100,
+    keywords: [
+      "umbrella",
+      "monsoon",
+      "black umbrella"
+    ]
+  } ,{
+    id: "id1",
+    image: "images/products/backpack.jpg",
+    name: "Black Backpack for College and Laptop",
+    rating: {
+      stars: 4.5,
+      count: 87
+    },
+    priceCents: 1500,
+    keywords: [
+      "bag",
+      "backpack",
+      "laptopbag"
+    ]
   }
 ];
