@@ -56,7 +56,7 @@ products.forEach((product)=> {
 });
 
 document.querySelector('.js-products-grid').innerHTML = productsHTML;
-addedMessageTimeout = {};
+
 document.querySelectorAll('.js-add-to-cart')
 .forEach((button)=> {
   button.addEventListener('click',()=>{
