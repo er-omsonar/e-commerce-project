@@ -117,6 +117,7 @@ document.querySelectorAll('.js-delete-link')
     container.remove();
     renderOrderSummary();
     updateCartQuantity();
+    renderPaymentSummary();
   });
 });
 document.querySelectorAll('.js-delivery-option').forEach((element)=>{
