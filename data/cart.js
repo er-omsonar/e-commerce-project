@@ -59,3 +59,10 @@ export function removeFromCart(productId){
    matchingItem.deliveryOptionId = deliveryOptionId;
    saveToStorage();
 }
+export function updateQuantity(productId, newQuantity) {
+  const matchingItem = cart.find((cartItem) => cartItem.productId === productId);
+  if (matchingItem) {
+    matchingItem.quantity = newQuantity;
+    saveToStorage();
+  }
+}
