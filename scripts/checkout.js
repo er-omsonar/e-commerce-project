@@ -14,3 +14,4 @@ cart.forEach((cartItem) => {
     .innerHTML = `${cartQuantity} items`;
 }
 updateCartQuantity();
+  
