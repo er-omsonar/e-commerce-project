@@ -140,6 +140,7 @@
   width: 140px;
   height: 36px;
   border-radius: 8px;
+  
 
   display: flex;
   align-items: center;
@@ -149,6 +150,7 @@
 .buy-again-icon {
   width: 25px;
   margin-right: 15px;
+  background-color: white;
 }
 
 .product-actions {
