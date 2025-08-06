@@ -68,4 +68,11 @@ export function renderPaymentSummary(){
   `;
   document.querySelector('.js-payment-summary')
 .innerHTML = paymentSummaryHTML;
+ 
+document.querySelector('.place-order-button')
+  .addEventListener('click', function () {
+    window.location.href = 'orders.html';
+  });
 }
+
+
