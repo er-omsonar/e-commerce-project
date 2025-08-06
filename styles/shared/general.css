@@ -25,9 +25,9 @@ input, select, button {
 }
 
 .button-primary {
-  color: white;
-  background-color: black;
-  border: 2px solid gray;
+  background-color: rgb(247, 185, 247);
+  color: rgb(0, 0, 255);
+  border: 2px solid rgb(238, 56, 141);
   border-radius: 8px;
   cursor: pointer;
   box-shadow: 0 2px 5px rgba(213, 217, 217, 0.5);
